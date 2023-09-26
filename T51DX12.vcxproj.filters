@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{0551475f-054f-4d60-b0be-8d1ab5f860dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Win">
+      <UniqueIdentifier>{87b43093-a6fd-4915-9165-7cd9996c9e3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation system">
+      <UniqueIdentifier>{d12bc494-1409-416c-a452-bda329f62e8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation system\Render system">
+      <UniqueIdentifier>{2ac0b32d-a4ab-4514-8af2-f1f01627cd52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation system\DirectX">
+      <UniqueIdentifier>{0f927ef2-f50c-483a-b261-48da9509c234}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\win\win.h">
+      <Filter>Source Files\Win</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_matr.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_vec2.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_vec3.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_vec4.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mthdef.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\def.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nidx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\anim.h">
+      <Filter>Source Files\Animation system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\input.h">
+      <Filter>Source Files\Animation system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\timer.h">
+      <Filter>Source Files\Animation system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\render\render.h">
+      <Filter>Source Files\Animation system\Render system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\dx\dx12.h">
+      <Filter>Source Files\Animation system\DirectX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\win\winmsg.cpp">
+      <Filter>Source Files\Win</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nidx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\anim.cpp">
+      <Filter>Source Files\Animation system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\dx\dx12.cpp">
+      <Filter>Source Files\Animation system\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\dx\dx12_render.cpp">
+      <Filter>Source Files\Animation system\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\dx\dx12_init.cpp">
+      <Filter>Source Files\Animation system\DirectX</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
